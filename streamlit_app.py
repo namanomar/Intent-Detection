@@ -11,7 +11,7 @@ st.set_page_config(
 )
 
 # Constants
-API_URL = "http://localhost:7860/predict"  # FastAPI endpoint
+API_URL = "https://namanomar-intent-detection.hf.space/predict"  # FastAPI endpoint
 
 def call_api(text: str, top_k: int = 10) -> Dict:
     """
