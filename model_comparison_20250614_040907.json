@@ -1,0 +1,2396 @@
+{
+  "distilbert": {
+    "accuracy": 0.5238095238095238,
+    "metrics": {
+      "accuracy": 0.5238095238095238,
+      "precision": 0.5527210884353742,
+      "recall": 0.5238095238095238,
+      "f1_score": 0.47569916855631145,
+      "per_class_metrics": {
+        "EMI": {
+          "precision": 0.42857142857142855,
+          "recall": 1.0,
+          "f1-score": 0.6,
+          "support": 3.0
+        },
+        "COD": {
+          "precision": 1.0,
+          "recall": 0.3333333333333333,
+          "f1-score": 0.5,
+          "support": 3.0
+        },
+        "ORTHO_FEATURES": {
+          "precision": 0.75,
+          "recall": 1.0,
+          "f1-score": 0.8571428571428571,
+          "support": 3.0
+        },
+        "ERGO_FEATURES": {
+          "precision": 1.0,
+          "recall": 0.3333333333333333,
+          "f1-score": 0.5,
+          "support": 3.0
+        },
+        "COMPARISON": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 3.0
+        },
+        "WARRANTY": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 3.0
+        },
+        "100_NIGHT_TRIAL_OFFER": {
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "f1-score": 0.8,
+          "support": 3.0
+        },
+        "SIZE_CUSTOMIZATION": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 3.0
+        },
+        "WHAT_SIZE_TO_ORDER": {
+          "precision": 0.42857142857142855,
+          "recall": 1.0,
+          "f1-score": 0.6,
+          "support": 3.0
+        },
+        "LEAD_GEN": {
+          "precision": 0.3333333333333333,
+          "recall": 0.6666666666666666,
+          "f1-score": 0.4444444444444444,
+          "support": 3.0
+        },
+        "CHECK_PINCODE": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 3.0
+        },
+        "DISTRIBUTORS": {
+          "precision": 0.4,
+          "recall": 0.6666666666666666,
+          "f1-score": 0.5,
+          "support": 3.0
+        },
+        "MATTRESS_COST": {
+          "precision": 0.6,
+          "recall": 1.0,
+          "f1-score": 0.75,
+          "support": 3.0
+        },
+        "PRODUCT_VARIANTS": {
+          "precision": 0.16666666666666666,
+          "recall": 0.6666666666666666,
+          "f1-score": 0.26666666666666666,
+          "support": 3.0
+        },
+        "ABOUT_SOF_MATTRESS": {
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "f1-score": 0.8,
+          "support": 3.0
+        },
+        "DELAY_IN_DELIVERY": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 3.0
+        },
+        "ORDER_STATUS": {
+          "precision": 0.5,
+          "recall": 0.6666666666666666,
+          "f1-score": 0.5714285714285714,
+          "support": 3.0
+        },
+        "RETURN_EXCHANGE": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 3.0
+        },
+        "CANCEL_ORDER": {
+          "precision": 1.0,
+          "recall": 0.3333333333333333,
+          "f1-score": 0.5,
+          "support": 3.0
+        },
+        "PILLOWS": {
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "f1-score": 0.8,
+          "support": 3.0
+        },
+        "OFFERS": {
+          "precision": 1.0,
+          "recall": 0.3333333333333333,
+          "f1-score": 0.5,
+          "support": 3.0
+        },
+        "accuracy": 0.5238095238095238,
+        "macro avg": {
+          "precision": 0.5527210884353742,
+          "recall": 0.5238095238095238,
+          "f1-score": 0.47569916855631145,
+          "support": 63.0
+        },
+        "weighted avg": {
+          "precision": 0.5527210884353742,
+          "recall": 0.5238095238095238,
+          "f1-score": 0.47569916855631145,
+          "support": 63.0
+        }
+      }
+    },
+    "detailed_results": [
+      {
+        "text": "Can I pay for the mattress in monthly installments?",
+        "true_label": "EMI",
+        "predicted_label": "EMI",
+        "is_correct": true,
+        "confidence": 0.18534795939922333
+      },
+      {
+        "text": "What are the EMI options available?",
+        "true_label": "EMI",
+        "predicted_label": "EMI",
+        "is_correct": true,
+        "confidence": 0.45281901955604553
+      },
+      {
+        "text": "How much will be the monthly EMI?",
+        "true_label": "EMI",
+        "predicted_label": "EMI",
+        "is_correct": true,
+        "confidence": 0.43296578526496887
+      },
+      {
+        "text": "Do you offer cash on delivery?",
+        "true_label": "COD",
+        "predicted_label": "EMI",
+        "is_correct": false,
+        "confidence": 0.13450126349925995
+      },
+      {
+        "text": "Can I pay when the mattress is delivered?",
+        "true_label": "COD",
+        "predicted_label": "PRODUCT_VARIANTS",
+        "is_correct": false,
+        "confidence": 0.08890499919652939
+      },
+      {
+        "text": "Is COD available in my area?",
+        "true_label": "COD",
+        "predicted_label": "COD",
+        "is_correct": true,
+        "confidence": 0.11733327060937881
+      },
+      {
+        "text": "What are the orthopedic benefits of this mattress?",
+        "true_label": "ORTHO_FEATURES",
+        "predicted_label": "ORTHO_FEATURES",
+        "is_correct": true,
+        "confidence": 0.24242393672466278
+      },
+      {
+        "text": "How does it help with back pain?",
+        "true_label": "ORTHO_FEATURES",
+        "predicted_label": "ORTHO_FEATURES",
+        "is_correct": true,
+        "confidence": 0.24471242725849152
+      },
+      {
+        "text": "Is it good for spine alignment?",
+        "true_label": "ORTHO_FEATURES",
+        "predicted_label": "ORTHO_FEATURES",
+        "is_correct": true,
+        "confidence": 0.13495972752571106
+      },
+      {
+        "text": "How does it adapt to body shape?",
+        "true_label": "ERGO_FEATURES",
+        "predicted_label": "WHAT_SIZE_TO_ORDER",
+        "is_correct": false,
+        "confidence": 0.08431851118803024
+      },
+      {
+        "text": "What makes it ergonomic?",
+        "true_label": "ERGO_FEATURES",
+        "predicted_label": "ERGO_FEATURES",
+        "is_correct": true,
+        "confidence": 0.14054237306118011
+      },
+      {
+        "text": "Does it provide proper support?",
+        "true_label": "ERGO_FEATURES",
+        "predicted_label": "LEAD_GEN",
+        "is_correct": false,
+        "confidence": 0.1021619513630867
+      },
+      {
+        "text": "How does it compare to other brands?",
+        "true_label": "COMPARISON",
+        "predicted_label": "DISTRIBUTORS",
+        "is_correct": false,
+        "confidence": 0.12500536441802979
+      },
+      {
+        "text": "What's the difference between this and memory foam?",
+        "true_label": "COMPARISON",
+        "predicted_label": "PRODUCT_VARIANTS",
+        "is_correct": false,
+        "confidence": 0.09030842781066895
+      },
+      {
+        "text": "Which is better, this or spring mattress?",
+        "true_label": "COMPARISON",
+        "predicted_label": "PRODUCT_VARIANTS",
+        "is_correct": false,
+        "confidence": 0.12373965233564377
+      },
+      {
+        "text": "What's the warranty period?",
+        "true_label": "WARRANTY",
+        "predicted_label": "WARRANTY",
+        "is_correct": true,
+        "confidence": 0.1971587836742401
+      },
+      {
+        "text": "Does warranty cover sagging?",
+        "true_label": "WARRANTY",
+        "predicted_label": "WARRANTY",
+        "is_correct": true,
+        "confidence": 0.18132641911506653
+      },
+      {
+        "text": "How to claim warranty?",
+        "true_label": "WARRANTY",
+        "predicted_label": "WARRANTY",
+        "is_correct": true,
+        "confidence": 0.2135009616613388
+      },
+      {
+        "text": "Tell me about the 100 night trial",
+        "true_label": "100_NIGHT_TRIAL_OFFER",
+        "predicted_label": "100_NIGHT_TRIAL_OFFER",
+        "is_correct": true,
+        "confidence": 0.35012224316596985
+      },
+      {
+        "text": "Can I return if I don't like it?",
+        "true_label": "100_NIGHT_TRIAL_OFFER",
+        "predicted_label": "LEAD_GEN",
+        "is_correct": false,
+        "confidence": 0.1319492608308792
+      },
+      {
+        "text": "What's the trial period?",
+        "true_label": "100_NIGHT_TRIAL_OFFER",
+        "predicted_label": "100_NIGHT_TRIAL_OFFER",
+        "is_correct": true,
+        "confidence": 0.1989879012107849
+      },
+      {
+        "text": "Can I get a custom size?",
+        "true_label": "SIZE_CUSTOMIZATION",
+        "predicted_label": "WHAT_SIZE_TO_ORDER",
+        "is_correct": false,
+        "confidence": 0.2053924947977066
+      },
+      {
+        "text": "Do you make mattresses to order?",
+        "true_label": "SIZE_CUSTOMIZATION",
+        "predicted_label": "PRODUCT_VARIANTS",
+        "is_correct": false,
+        "confidence": 0.12670834362506866
+      },
+      {
+        "text": "What sizes are available?",
+        "true_label": "SIZE_CUSTOMIZATION",
+        "predicted_label": "WHAT_SIZE_TO_ORDER",
+        "is_correct": false,
+        "confidence": 0.24044567346572876
+      },
+      {
+        "text": "What size should I order?",
+        "true_label": "WHAT_SIZE_TO_ORDER",
+        "predicted_label": "WHAT_SIZE_TO_ORDER",
+        "is_correct": true,
+        "confidence": 0.24118709564208984
+      },
+      {
+        "text": "How to choose the right size?",
+        "true_label": "WHAT_SIZE_TO_ORDER",
+        "predicted_label": "WHAT_SIZE_TO_ORDER",
+        "is_correct": true,
+        "confidence": 0.2355716973543167
+      },
+      {
+        "text": "Which size is best for my bed?",
+        "true_label": "WHAT_SIZE_TO_ORDER",
+        "predicted_label": "WHAT_SIZE_TO_ORDER",
+        "is_correct": true,
+        "confidence": 0.19348062574863434
+      },
+      {
+        "text": "I want to know more about your products",
+        "true_label": "LEAD_GEN",
+        "predicted_label": "PRODUCT_VARIANTS",
+        "is_correct": false,
+        "confidence": 0.1547001302242279
+      },
+      {
+        "text": "Can someone call me?",
+        "true_label": "LEAD_GEN",
+        "predicted_label": "LEAD_GEN",
+        "is_correct": true,
+        "confidence": 0.2248055636882782
+      },
+      {
+        "text": "Send me more information",
+        "true_label": "LEAD_GEN",
+        "predicted_label": "LEAD_GEN",
+        "is_correct": true,
+        "confidence": 0.14637532830238342
+      },
+      {
+        "text": "Is delivery available in 400001?",
+        "true_label": "CHECK_PINCODE",
+        "predicted_label": "EMI",
+        "is_correct": false,
+        "confidence": 0.1075708344578743
+      },
+      {
+        "text": "Check delivery for my area",
+        "true_label": "CHECK_PINCODE",
+        "predicted_label": "ORTHO_FEATURES",
+        "is_correct": false,
+        "confidence": 0.13085544109344482
+      },
+      {
+        "text": "Do you deliver to my location?",
+        "true_label": "CHECK_PINCODE",
+        "predicted_label": "DISTRIBUTORS",
+        "is_correct": false,
+        "confidence": 0.12533216178417206
+      },
+      {
+        "text": "Where can I buy your mattress?",
+        "true_label": "DISTRIBUTORS",
+        "predicted_label": "PRODUCT_VARIANTS",
+        "is_correct": false,
+        "confidence": 0.12009551376104355
+      },
+      {
+        "text": "List of dealers in my city",
+        "true_label": "DISTRIBUTORS",
+        "predicted_label": "DISTRIBUTORS",
+        "is_correct": true,
+        "confidence": 0.5204272270202637
+      },
+      {
+        "text": "Nearest store location",
+        "true_label": "DISTRIBUTORS",
+        "predicted_label": "DISTRIBUTORS",
+        "is_correct": true,
+        "confidence": 0.5940763354301453
+      },
+      {
+        "text": "What's the price of the mattress?",
+        "true_label": "MATTRESS_COST",
+        "predicted_label": "MATTRESS_COST",
+        "is_correct": true,
+        "confidence": 0.26623478531837463
+      },
+      {
+        "text": "How much does it cost?",
+        "true_label": "MATTRESS_COST",
+        "predicted_label": "MATTRESS_COST",
+        "is_correct": true,
+        "confidence": 0.2229703664779663
+      },
+      {
+        "text": "Price for queen size",
+        "true_label": "MATTRESS_COST",
+        "predicted_label": "MATTRESS_COST",
+        "is_correct": true,
+        "confidence": 0.18052458763122559
+      },
+      {
+        "text": "What models do you have?",
+        "true_label": "PRODUCT_VARIANTS",
+        "predicted_label": "LEAD_GEN",
+        "is_correct": false,
+        "confidence": 0.08363870531320572
+      },
+      {
+        "text": "Different types of mattresses",
+        "true_label": "PRODUCT_VARIANTS",
+        "predicted_label": "PRODUCT_VARIANTS",
+        "is_correct": true,
+        "confidence": 0.1743544638156891
+      },
+      {
+        "text": "Show me all variants",
+        "true_label": "PRODUCT_VARIANTS",
+        "predicted_label": "PRODUCT_VARIANTS",
+        "is_correct": true,
+        "confidence": 0.12086843699216843
+      },
+      {
+        "text": "Tell me about SOF mattress",
+        "true_label": "ABOUT_SOF_MATTRESS",
+        "predicted_label": "ABOUT_SOF_MATTRESS",
+        "is_correct": true,
+        "confidence": 0.23573170602321625
+      },
+      {
+        "text": "What makes your mattress special?",
+        "true_label": "ABOUT_SOF_MATTRESS",
+        "predicted_label": "PRODUCT_VARIANTS",
+        "is_correct": false,
+        "confidence": 0.13686805963516235
+      },
+      {
+        "text": "Why choose SOF?",
+        "true_label": "ABOUT_SOF_MATTRESS",
+        "predicted_label": "ABOUT_SOF_MATTRESS",
+        "is_correct": true,
+        "confidence": 0.17471717298030853
+      },
+      {
+        "text": "My order is delayed",
+        "true_label": "DELAY_IN_DELIVERY",
+        "predicted_label": "ORDER_STATUS",
+        "is_correct": false,
+        "confidence": 0.29145094752311707
+      },
+      {
+        "text": "When will I get my mattress?",
+        "true_label": "DELAY_IN_DELIVERY",
+        "predicted_label": "PRODUCT_VARIANTS",
+        "is_correct": false,
+        "confidence": 0.11826156824827194
+      },
+      {
+        "text": "Delivery taking too long",
+        "true_label": "DELAY_IN_DELIVERY",
+        "predicted_label": "EMI",
+        "is_correct": false,
+        "confidence": 0.07483772188425064
+      },
+      {
+        "text": "Track my order",
+        "true_label": "ORDER_STATUS",
+        "predicted_label": "ORDER_STATUS",
+        "is_correct": true,
+        "confidence": 0.37235113978385925
+      },
+      {
+        "text": "Where is my mattress?",
+        "true_label": "ORDER_STATUS",
+        "predicted_label": "PRODUCT_VARIANTS",
+        "is_correct": false,
+        "confidence": 0.11587128043174744
+      },
+      {
+        "text": "Order number 12345 status",
+        "true_label": "ORDER_STATUS",
+        "predicted_label": "ORDER_STATUS",
+        "is_correct": true,
+        "confidence": 0.4206617474555969
+      },
+      {
+        "text": "How to return the mattress?",
+        "true_label": "RETURN_EXCHANGE",
+        "predicted_label": "PRODUCT_VARIANTS",
+        "is_correct": false,
+        "confidence": 0.09726828336715698
+      },
+      {
+        "text": "Exchange policy",
+        "true_label": "RETURN_EXCHANGE",
+        "predicted_label": "EMI",
+        "is_correct": false,
+        "confidence": 0.15876060724258423
+      },
+      {
+        "text": "Can I exchange for different size?",
+        "true_label": "RETURN_EXCHANGE",
+        "predicted_label": "WHAT_SIZE_TO_ORDER",
+        "is_correct": false,
+        "confidence": 0.2314741462469101
+      },
+      {
+        "text": "How to cancel my order?",
+        "true_label": "CANCEL_ORDER",
+        "predicted_label": "CANCEL_ORDER",
+        "is_correct": true,
+        "confidence": 0.14770831167697906
+      },
+      {
+        "text": "I want to cancel",
+        "true_label": "CANCEL_ORDER",
+        "predicted_label": "LEAD_GEN",
+        "is_correct": false,
+        "confidence": 0.11756940186023712
+      },
+      {
+        "text": "Cancel order number 12345",
+        "true_label": "CANCEL_ORDER",
+        "predicted_label": "ORDER_STATUS",
+        "is_correct": false,
+        "confidence": 0.13723993301391602
+      },
+      {
+        "text": "Do you sell pillows?",
+        "true_label": "PILLOWS",
+        "predicted_label": "PILLOWS",
+        "is_correct": true,
+        "confidence": 0.1278836727142334
+      },
+      {
+        "text": "Price of your pillows",
+        "true_label": "PILLOWS",
+        "predicted_label": "MATTRESS_COST",
+        "is_correct": false,
+        "confidence": 0.2590365409851074
+      },
+      {
+        "text": "Types of pillows available",
+        "true_label": "PILLOWS",
+        "predicted_label": "PILLOWS",
+        "is_correct": true,
+        "confidence": 0.1248084232211113
+      },
+      {
+        "text": "Any ongoing offers?",
+        "true_label": "OFFERS",
+        "predicted_label": "OFFERS",
+        "is_correct": true,
+        "confidence": 0.08849713951349258
+      },
+      {
+        "text": "Discount on mattress",
+        "true_label": "OFFERS",
+        "predicted_label": "MATTRESS_COST",
+        "is_correct": false,
+        "confidence": 0.10488023608922958
+      },
+      {
+        "text": "Special deals available",
+        "true_label": "OFFERS",
+        "predicted_label": "DISTRIBUTORS",
+        "is_correct": false,
+        "confidence": 0.152448371052742
+      }
+    ],
+    "has_probabilities": true
+  },
+  "svm": {
+    "accuracy": 0.6031746031746031,
+    "metrics": {
+      "accuracy": 0.6031746031746031,
+      "precision": 0.7332112332112333,
+      "recall": 0.6031746031746031,
+      "f1_score": 0.6111368789940219,
+      "per_class_metrics": {
+        "EMI": {
+          "precision": 1.0,
+          "recall": 0.3333333333333333,
+          "f1-score": 0.5,
+          "support": 3.0
+        },
+        "COD": {
+          "precision": 0.6666666666666666,
+          "recall": 0.6666666666666666,
+          "f1-score": 0.6666666666666666,
+          "support": 3.0
+        },
+        "ORTHO_FEATURES": {
+          "precision": 1.0,
+          "recall": 0.3333333333333333,
+          "f1-score": 0.5,
+          "support": 3.0
+        },
+        "ERGO_FEATURES": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 3.0
+        },
+        "COMPARISON": {
+          "precision": 1.0,
+          "recall": 0.3333333333333333,
+          "f1-score": 0.5,
+          "support": 3.0
+        },
+        "WARRANTY": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 3.0
+        },
+        "100_NIGHT_TRIAL_OFFER": {
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "f1-score": 0.8,
+          "support": 3.0
+        },
+        "SIZE_CUSTOMIZATION": {
+          "precision": 1.0,
+          "recall": 0.3333333333333333,
+          "f1-score": 0.5,
+          "support": 3.0
+        },
+        "WHAT_SIZE_TO_ORDER": {
+          "precision": 0.5,
+          "recall": 0.6666666666666666,
+          "f1-score": 0.5714285714285714,
+          "support": 3.0
+        },
+        "LEAD_GEN": {
+          "precision": 0.5,
+          "recall": 0.3333333333333333,
+          "f1-score": 0.4,
+          "support": 3.0
+        },
+        "CHECK_PINCODE": {
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "f1-score": 0.8,
+          "support": 3.0
+        },
+        "DISTRIBUTORS": {
+          "precision": 0.23076923076923078,
+          "recall": 1.0,
+          "f1-score": 0.375,
+          "support": 3.0
+        },
+        "MATTRESS_COST": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 3.0
+        },
+        "PRODUCT_VARIANTS": {
+          "precision": 0.25,
+          "recall": 0.6666666666666666,
+          "f1-score": 0.36363636363636365,
+          "support": 3.0
+        },
+        "ABOUT_SOF_MATTRESS": {
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "f1-score": 0.8,
+          "support": 3.0
+        },
+        "DELAY_IN_DELIVERY": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 3.0
+        },
+        "ORDER_STATUS": {
+          "precision": 0.75,
+          "recall": 1.0,
+          "f1-score": 0.8571428571428571,
+          "support": 3.0
+        },
+        "RETURN_EXCHANGE": {
+          "precision": 0.5,
+          "recall": 0.3333333333333333,
+          "f1-score": 0.4,
+          "support": 3.0
+        },
+        "CANCEL_ORDER": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 3.0
+        },
+        "PILLOWS": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 3.0
+        },
+        "OFFERS": {
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "f1-score": 0.8,
+          "support": 3.0
+        },
+        "accuracy": 0.6031746031746031,
+        "macro avg": {
+          "precision": 0.7332112332112333,
+          "recall": 0.6031746031746031,
+          "f1-score": 0.6111368789940219,
+          "support": 63.0
+        },
+        "weighted avg": {
+          "precision": 0.7332112332112333,
+          "recall": 0.6031746031746031,
+          "f1-score": 0.6111368789940219,
+          "support": 63.0
+        }
+      }
+    },
+    "detailed_results": [
+      {
+        "text": "Can I pay for the mattress in monthly installments?",
+        "true_label": "EMI",
+        "predicted_label": "DISTRIBUTORS",
+        "is_correct": false,
+        "confidence": 0.17131490927960685
+      },
+      {
+        "text": "What are the EMI options available?",
+        "true_label": "EMI",
+        "predicted_label": "WHAT_SIZE_TO_ORDER",
+        "is_correct": false,
+        "confidence": 0.28555585519967347
+      },
+      {
+        "text": "How much will be the monthly EMI?",
+        "true_label": "EMI",
+        "predicted_label": "EMI",
+        "is_correct": true,
+        "confidence": 0.17920354940670447
+      },
+      {
+        "text": "Do you offer cash on delivery?",
+        "true_label": "COD",
+        "predicted_label": "COD",
+        "is_correct": true,
+        "confidence": 0.5231154320360022
+      },
+      {
+        "text": "Can I pay when the mattress is delivered?",
+        "true_label": "COD",
+        "predicted_label": "PRODUCT_VARIANTS",
+        "is_correct": false,
+        "confidence": 0.18347655310435515
+      },
+      {
+        "text": "Is COD available in my area?",
+        "true_label": "COD",
+        "predicted_label": "COD",
+        "is_correct": true,
+        "confidence": 0.23687385403349365
+      },
+      {
+        "text": "What are the orthopedic benefits of this mattress?",
+        "true_label": "ORTHO_FEATURES",
+        "predicted_label": "PRODUCT_VARIANTS",
+        "is_correct": false,
+        "confidence": 0.27675842462884487
+      },
+      {
+        "text": "How does it help with back pain?",
+        "true_label": "ORTHO_FEATURES",
+        "predicted_label": "ORTHO_FEATURES",
+        "is_correct": true,
+        "confidence": 0.27558374760612697
+      },
+      {
+        "text": "Is it good for spine alignment?",
+        "true_label": "ORTHO_FEATURES",
+        "predicted_label": "DISTRIBUTORS",
+        "is_correct": false,
+        "confidence": 0.2788211256320434
+      },
+      {
+        "text": "How does it adapt to body shape?",
+        "true_label": "ERGO_FEATURES",
+        "predicted_label": "DELAY_IN_DELIVERY",
+        "is_correct": false,
+        "confidence": 0.16044329376964453
+      },
+      {
+        "text": "What makes it ergonomic?",
+        "true_label": "ERGO_FEATURES",
+        "predicted_label": "DELAY_IN_DELIVERY",
+        "is_correct": false,
+        "confidence": 0.30748633137621323
+      },
+      {
+        "text": "Does it provide proper support?",
+        "true_label": "ERGO_FEATURES",
+        "predicted_label": "DISTRIBUTORS",
+        "is_correct": false,
+        "confidence": 0.14281584888012783
+      },
+      {
+        "text": "How does it compare to other brands?",
+        "true_label": "COMPARISON",
+        "predicted_label": "DELAY_IN_DELIVERY",
+        "is_correct": false,
+        "confidence": 0.16044329376964453
+      },
+      {
+        "text": "What's the difference between this and memory foam?",
+        "true_label": "COMPARISON",
+        "predicted_label": "COMPARISON",
+        "is_correct": true,
+        "confidence": 0.2919068321582472
+      },
+      {
+        "text": "Which is better, this or spring mattress?",
+        "true_label": "COMPARISON",
+        "predicted_label": "PRODUCT_VARIANTS",
+        "is_correct": false,
+        "confidence": 0.3486427417111919
+      },
+      {
+        "text": "What's the warranty period?",
+        "true_label": "WARRANTY",
+        "predicted_label": "WARRANTY",
+        "is_correct": true,
+        "confidence": 0.6201684696149442
+      },
+      {
+        "text": "Does warranty cover sagging?",
+        "true_label": "WARRANTY",
+        "predicted_label": "WARRANTY",
+        "is_correct": true,
+        "confidence": 0.701093032709002
+      },
+      {
+        "text": "How to claim warranty?",
+        "true_label": "WARRANTY",
+        "predicted_label": "WARRANTY",
+        "is_correct": true,
+        "confidence": 0.38910580421062463
+      },
+      {
+        "text": "Tell me about the 100 night trial",
+        "true_label": "100_NIGHT_TRIAL_OFFER",
+        "predicted_label": "100_NIGHT_TRIAL_OFFER",
+        "is_correct": true,
+        "confidence": 0.35503152619460876
+      },
+      {
+        "text": "Can I return if I don't like it?",
+        "true_label": "100_NIGHT_TRIAL_OFFER",
+        "predicted_label": "RETURN_EXCHANGE",
+        "is_correct": false,
+        "confidence": 0.23537953603627307
+      },
+      {
+        "text": "What's the trial period?",
+        "true_label": "100_NIGHT_TRIAL_OFFER",
+        "predicted_label": "100_NIGHT_TRIAL_OFFER",
+        "is_correct": true,
+        "confidence": 0.3489834836828136
+      },
+      {
+        "text": "Can I get a custom size?",
+        "true_label": "SIZE_CUSTOMIZATION",
+        "predicted_label": "SIZE_CUSTOMIZATION",
+        "is_correct": true,
+        "confidence": 0.19674232616647844
+      },
+      {
+        "text": "Do you make mattresses to order?",
+        "true_label": "SIZE_CUSTOMIZATION",
+        "predicted_label": "LEAD_GEN",
+        "is_correct": false,
+        "confidence": 0.23407696114318452
+      },
+      {
+        "text": "What sizes are available?",
+        "true_label": "SIZE_CUSTOMIZATION",
+        "predicted_label": "WHAT_SIZE_TO_ORDER",
+        "is_correct": false,
+        "confidence": 0.30031944476748335
+      },
+      {
+        "text": "What size should I order?",
+        "true_label": "WHAT_SIZE_TO_ORDER",
+        "predicted_label": "WHAT_SIZE_TO_ORDER",
+        "is_correct": true,
+        "confidence": 0.34112006093414043
+      },
+      {
+        "text": "How to choose the right size?",
+        "true_label": "WHAT_SIZE_TO_ORDER",
+        "predicted_label": "WHAT_SIZE_TO_ORDER",
+        "is_correct": true,
+        "confidence": 0.23641704065670854
+      },
+      {
+        "text": "Which size is best for my bed?",
+        "true_label": "WHAT_SIZE_TO_ORDER",
+        "predicted_label": "DISTRIBUTORS",
+        "is_correct": false,
+        "confidence": 0.14515163143592355
+      },
+      {
+        "text": "I want to know more about your products",
+        "true_label": "LEAD_GEN",
+        "predicted_label": "PRODUCT_VARIANTS",
+        "is_correct": false,
+        "confidence": 0.1606698573801976
+      },
+      {
+        "text": "Can someone call me?",
+        "true_label": "LEAD_GEN",
+        "predicted_label": "LEAD_GEN",
+        "is_correct": true,
+        "confidence": 0.3983733967630595
+      },
+      {
+        "text": "Send me more information",
+        "true_label": "LEAD_GEN",
+        "predicted_label": "DISTRIBUTORS",
+        "is_correct": false,
+        "confidence": 0.13299468996534883
+      },
+      {
+        "text": "Is delivery available in 400001?",
+        "true_label": "CHECK_PINCODE",
+        "predicted_label": "DISTRIBUTORS",
+        "is_correct": false,
+        "confidence": 0.2003014496588668
+      },
+      {
+        "text": "Check delivery for my area",
+        "true_label": "CHECK_PINCODE",
+        "predicted_label": "CHECK_PINCODE",
+        "is_correct": true,
+        "confidence": 0.1401170463556991
+      },
+      {
+        "text": "Do you deliver to my location?",
+        "true_label": "CHECK_PINCODE",
+        "predicted_label": "CHECK_PINCODE",
+        "is_correct": true,
+        "confidence": 0.2619704050327538
+      },
+      {
+        "text": "Where can I buy your mattress?",
+        "true_label": "DISTRIBUTORS",
+        "predicted_label": "DISTRIBUTORS",
+        "is_correct": true,
+        "confidence": 0.30634946391349305
+      },
+      {
+        "text": "List of dealers in my city",
+        "true_label": "DISTRIBUTORS",
+        "predicted_label": "DISTRIBUTORS",
+        "is_correct": true,
+        "confidence": 0.1577460428398313
+      },
+      {
+        "text": "Nearest store location",
+        "true_label": "DISTRIBUTORS",
+        "predicted_label": "DISTRIBUTORS",
+        "is_correct": true,
+        "confidence": 0.5229502445715362
+      },
+      {
+        "text": "What's the price of the mattress?",
+        "true_label": "MATTRESS_COST",
+        "predicted_label": "MATTRESS_COST",
+        "is_correct": true,
+        "confidence": 0.37630746323159286
+      },
+      {
+        "text": "How much does it cost?",
+        "true_label": "MATTRESS_COST",
+        "predicted_label": "MATTRESS_COST",
+        "is_correct": true,
+        "confidence": 0.2971999538266017
+      },
+      {
+        "text": "Price for queen size",
+        "true_label": "MATTRESS_COST",
+        "predicted_label": "MATTRESS_COST",
+        "is_correct": true,
+        "confidence": 0.24486182669276343
+      },
+      {
+        "text": "What models do you have?",
+        "true_label": "PRODUCT_VARIANTS",
+        "predicted_label": "DISTRIBUTORS",
+        "is_correct": false,
+        "confidence": 0.3499817751137238
+      },
+      {
+        "text": "Different types of mattresses",
+        "true_label": "PRODUCT_VARIANTS",
+        "predicted_label": "PRODUCT_VARIANTS",
+        "is_correct": true,
+        "confidence": 0.15224166122175398
+      },
+      {
+        "text": "Show me all variants",
+        "true_label": "PRODUCT_VARIANTS",
+        "predicted_label": "PRODUCT_VARIANTS",
+        "is_correct": true,
+        "confidence": 0.48028289734611956
+      },
+      {
+        "text": "Tell me about SOF mattress",
+        "true_label": "ABOUT_SOF_MATTRESS",
+        "predicted_label": "ABOUT_SOF_MATTRESS",
+        "is_correct": true,
+        "confidence": 0.5973798855756121
+      },
+      {
+        "text": "What makes your mattress special?",
+        "true_label": "ABOUT_SOF_MATTRESS",
+        "predicted_label": "PRODUCT_VARIANTS",
+        "is_correct": false,
+        "confidence": 0.20019776378848095
+      },
+      {
+        "text": "Why choose SOF?",
+        "true_label": "ABOUT_SOF_MATTRESS",
+        "predicted_label": "ABOUT_SOF_MATTRESS",
+        "is_correct": true,
+        "confidence": 0.32205085286311697
+      },
+      {
+        "text": "My order is delayed",
+        "true_label": "DELAY_IN_DELIVERY",
+        "predicted_label": "ORDER_STATUS",
+        "is_correct": false,
+        "confidence": 0.6429909751516381
+      },
+      {
+        "text": "When will I get my mattress?",
+        "true_label": "DELAY_IN_DELIVERY",
+        "predicted_label": "DISTRIBUTORS",
+        "is_correct": false,
+        "confidence": 0.1023615850705151
+      },
+      {
+        "text": "Delivery taking too long",
+        "true_label": "DELAY_IN_DELIVERY",
+        "predicted_label": "COD",
+        "is_correct": false,
+        "confidence": 0.15979873960320642
+      },
+      {
+        "text": "Track my order",
+        "true_label": "ORDER_STATUS",
+        "predicted_label": "ORDER_STATUS",
+        "is_correct": true,
+        "confidence": 0.650678576820111
+      },
+      {
+        "text": "Where is my mattress?",
+        "true_label": "ORDER_STATUS",
+        "predicted_label": "ORDER_STATUS",
+        "is_correct": true,
+        "confidence": 0.3127591854957416
+      },
+      {
+        "text": "Order number 12345 status",
+        "true_label": "ORDER_STATUS",
+        "predicted_label": "ORDER_STATUS",
+        "is_correct": true,
+        "confidence": 0.8095586827888205
+      },
+      {
+        "text": "How to return the mattress?",
+        "true_label": "RETURN_EXCHANGE",
+        "predicted_label": "PRODUCT_VARIANTS",
+        "is_correct": false,
+        "confidence": 0.1425715853472925
+      },
+      {
+        "text": "Exchange policy",
+        "true_label": "RETURN_EXCHANGE",
+        "predicted_label": "RETURN_EXCHANGE",
+        "is_correct": true,
+        "confidence": 0.5280270536158015
+      },
+      {
+        "text": "Can I exchange for different size?",
+        "true_label": "RETURN_EXCHANGE",
+        "predicted_label": "DISTRIBUTORS",
+        "is_correct": false,
+        "confidence": 0.19045107425954808
+      },
+      {
+        "text": "How to cancel my order?",
+        "true_label": "CANCEL_ORDER",
+        "predicted_label": "CANCEL_ORDER",
+        "is_correct": true,
+        "confidence": 0.43294652374175074
+      },
+      {
+        "text": "I want to cancel",
+        "true_label": "CANCEL_ORDER",
+        "predicted_label": "CANCEL_ORDER",
+        "is_correct": true,
+        "confidence": 0.1732012012372556
+      },
+      {
+        "text": "Cancel order number 12345",
+        "true_label": "CANCEL_ORDER",
+        "predicted_label": "CANCEL_ORDER",
+        "is_correct": true,
+        "confidence": 0.5631285802287683
+      },
+      {
+        "text": "Do you sell pillows?",
+        "true_label": "PILLOWS",
+        "predicted_label": "PILLOWS",
+        "is_correct": true,
+        "confidence": 0.6432152199036766
+      },
+      {
+        "text": "Price of your pillows",
+        "true_label": "PILLOWS",
+        "predicted_label": "PILLOWS",
+        "is_correct": true,
+        "confidence": 0.24196901885049302
+      },
+      {
+        "text": "Types of pillows available",
+        "true_label": "PILLOWS",
+        "predicted_label": "PILLOWS",
+        "is_correct": true,
+        "confidence": 0.5887167764957005
+      },
+      {
+        "text": "Any ongoing offers?",
+        "true_label": "OFFERS",
+        "predicted_label": "OFFERS",
+        "is_correct": true,
+        "confidence": 0.7807332846119702
+      },
+      {
+        "text": "Discount on mattress",
+        "true_label": "OFFERS",
+        "predicted_label": "OFFERS",
+        "is_correct": true,
+        "confidence": 0.3233160402088494
+      },
+      {
+        "text": "Special deals available",
+        "true_label": "OFFERS",
+        "predicted_label": "DISTRIBUTORS",
+        "is_correct": false,
+        "confidence": 0.3181288710131574
+      }
+    ],
+    "has_probabilities": true
+  },
+  "cnn": {
+    "accuracy": 0.5396825396825397,
+    "metrics": {
+      "accuracy": 0.5396825396825397,
+      "precision": 0.6716931216931218,
+      "recall": 0.5396825396825397,
+      "f1_score": 0.5305638805638806,
+      "per_class_metrics": {
+        "100_NIGHT_TRIAL_OFFER": {
+          "precision": 1.0,
+          "recall": 0.3333333333333333,
+          "f1-score": 0.5,
+          "support": 3.0
+        },
+        "ABOUT_SOF_MATTRESS": {
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "f1-score": 0.8,
+          "support": 3.0
+        },
+        "CANCEL_ORDER": {
+          "precision": 1.0,
+          "recall": 0.3333333333333333,
+          "f1-score": 0.5,
+          "support": 3.0
+        },
+        "CHECK_PINCODE": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 3.0
+        },
+        "COD": {
+          "precision": 0.25,
+          "recall": 0.6666666666666666,
+          "f1-score": 0.36363636363636365,
+          "support": 3.0
+        },
+        "COMPARISON": {
+          "precision": 0.3333333333333333,
+          "recall": 0.3333333333333333,
+          "f1-score": 0.3333333333333333,
+          "support": 3.0
+        },
+        "DELAY_IN_DELIVERY": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 3.0
+        },
+        "DISTRIBUTORS": {
+          "precision": 0.3,
+          "recall": 1.0,
+          "f1-score": 0.46153846153846156,
+          "support": 3.0
+        },
+        "EMI": {
+          "precision": 1.0,
+          "recall": 0.3333333333333333,
+          "f1-score": 0.5,
+          "support": 3.0
+        },
+        "ERGO_FEATURES": {
+          "precision": 1.0,
+          "recall": 0.3333333333333333,
+          "f1-score": 0.5,
+          "support": 3.0
+        },
+        "LEAD_GEN": {
+          "precision": 0.5,
+          "recall": 0.3333333333333333,
+          "f1-score": 0.4,
+          "support": 3.0
+        },
+        "MATTRESS_COST": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 3.0
+        },
+        "OFFERS": {
+          "precision": 1.0,
+          "recall": 0.3333333333333333,
+          "f1-score": 0.5,
+          "support": 3.0
+        },
+        "ORDER_STATUS": {
+          "precision": 0.6,
+          "recall": 1.0,
+          "f1-score": 0.75,
+          "support": 3.0
+        },
+        "ORTHO_FEATURES": {
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "f1-score": 0.8,
+          "support": 3.0
+        },
+        "PILLOWS": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 3.0
+        },
+        "PRODUCT_VARIANTS": {
+          "precision": 0.4,
+          "recall": 0.6666666666666666,
+          "f1-score": 0.5,
+          "support": 3.0
+        },
+        "RETURN_EXCHANGE": {
+          "precision": 0.5,
+          "recall": 0.3333333333333333,
+          "f1-score": 0.4,
+          "support": 3.0
+        },
+        "SIZE_CUSTOMIZATION": {
+          "precision": 1.0,
+          "recall": 0.3333333333333333,
+          "f1-score": 0.5,
+          "support": 3.0
+        },
+        "WARRANTY": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 3.0
+        },
+        "WHAT_SIZE_TO_ORDER": {
+          "precision": 0.2222222222222222,
+          "recall": 0.6666666666666666,
+          "f1-score": 0.3333333333333333,
+          "support": 3.0
+        },
+        "accuracy": 0.5396825396825397,
+        "macro avg": {
+          "precision": 0.6716931216931217,
+          "recall": 0.5396825396825397,
+          "f1-score": 0.5305638805638806,
+          "support": 63.0
+        },
+        "weighted avg": {
+          "precision": 0.6716931216931218,
+          "recall": 0.5396825396825397,
+          "f1-score": 0.5305638805638806,
+          "support": 63.0
+        }
+      }
+    },
+    "detailed_results": [
+      {
+        "text": "Can I pay for the mattress in monthly installments?",
+        "true_label": "EMI",
+        "predicted_label": "DISTRIBUTORS",
+        "is_correct": false,
+        "confidence": 0.1947759985923767
+      },
+      {
+        "text": "What are the EMI options available?",
+        "true_label": "EMI",
+        "predicted_label": "WHAT_SIZE_TO_ORDER",
+        "is_correct": false,
+        "confidence": 0.7219076752662659
+      },
+      {
+        "text": "How much will be the monthly EMI?",
+        "true_label": "EMI",
+        "predicted_label": "EMI",
+        "is_correct": true,
+        "confidence": 0.4692133367061615
+      },
+      {
+        "text": "Do you offer cash on delivery?",
+        "true_label": "COD",
+        "predicted_label": "COD",
+        "is_correct": true,
+        "confidence": 0.9249606728553772
+      },
+      {
+        "text": "Can I pay when the mattress is delivered?",
+        "true_label": "COD",
+        "predicted_label": "COMPARISON",
+        "is_correct": false,
+        "confidence": 0.2731519341468811
+      },
+      {
+        "text": "Is COD available in my area?",
+        "true_label": "COD",
+        "predicted_label": "COD",
+        "is_correct": true,
+        "confidence": 0.3432644307613373
+      },
+      {
+        "text": "What are the orthopedic benefits of this mattress?",
+        "true_label": "ORTHO_FEATURES",
+        "predicted_label": "ORTHO_FEATURES",
+        "is_correct": true,
+        "confidence": 0.29468873143196106
+      },
+      {
+        "text": "How does it help with back pain?",
+        "true_label": "ORTHO_FEATURES",
+        "predicted_label": "ORTHO_FEATURES",
+        "is_correct": true,
+        "confidence": 0.541435182094574
+      },
+      {
+        "text": "Is it good for spine alignment?",
+        "true_label": "ORTHO_FEATURES",
+        "predicted_label": "DISTRIBUTORS",
+        "is_correct": false,
+        "confidence": 0.27669578790664673
+      },
+      {
+        "text": "How does it adapt to body shape?",
+        "true_label": "ERGO_FEATURES",
+        "predicted_label": "COD",
+        "is_correct": false,
+        "confidence": 0.3258471190929413
+      },
+      {
+        "text": "What makes it ergonomic?",
+        "true_label": "ERGO_FEATURES",
+        "predicted_label": "ERGO_FEATURES",
+        "is_correct": true,
+        "confidence": 0.41005441546440125
+      },
+      {
+        "text": "Does it provide proper support?",
+        "true_label": "ERGO_FEATURES",
+        "predicted_label": "COD",
+        "is_correct": false,
+        "confidence": 0.21630136668682098
+      },
+      {
+        "text": "How does it compare to other brands?",
+        "true_label": "COMPARISON",
+        "predicted_label": "COD",
+        "is_correct": false,
+        "confidence": 0.3567976951599121
+      },
+      {
+        "text": "What's the difference between this and memory foam?",
+        "true_label": "COMPARISON",
+        "predicted_label": "COMPARISON",
+        "is_correct": true,
+        "confidence": 0.3641975224018097
+      },
+      {
+        "text": "Which is better, this or spring mattress?",
+        "true_label": "COMPARISON",
+        "predicted_label": "PRODUCT_VARIANTS",
+        "is_correct": false,
+        "confidence": 0.17919814586639404
+      },
+      {
+        "text": "What's the warranty period?",
+        "true_label": "WARRANTY",
+        "predicted_label": "WARRANTY",
+        "is_correct": true,
+        "confidence": 0.5507898926734924
+      },
+      {
+        "text": "Does warranty cover sagging?",
+        "true_label": "WARRANTY",
+        "predicted_label": "WARRANTY",
+        "is_correct": true,
+        "confidence": 0.899940550327301
+      },
+      {
+        "text": "How to claim warranty?",
+        "true_label": "WARRANTY",
+        "predicted_label": "WARRANTY",
+        "is_correct": true,
+        "confidence": 0.7455464601516724
+      },
+      {
+        "text": "Tell me about the 100 night trial",
+        "true_label": "100_NIGHT_TRIAL_OFFER",
+        "predicted_label": "100_NIGHT_TRIAL_OFFER",
+        "is_correct": true,
+        "confidence": 0.9974349141120911
+      },
+      {
+        "text": "Can I return if I don't like it?",
+        "true_label": "100_NIGHT_TRIAL_OFFER",
+        "predicted_label": "COD",
+        "is_correct": false,
+        "confidence": 0.2403179556131363
+      },
+      {
+        "text": "What's the trial period?",
+        "true_label": "100_NIGHT_TRIAL_OFFER",
+        "predicted_label": "WHAT_SIZE_TO_ORDER",
+        "is_correct": false,
+        "confidence": 0.5840005874633789
+      },
+      {
+        "text": "Can I get a custom size?",
+        "true_label": "SIZE_CUSTOMIZATION",
+        "predicted_label": "SIZE_CUSTOMIZATION",
+        "is_correct": true,
+        "confidence": 0.6779247522354126
+      },
+      {
+        "text": "Do you make mattresses to order?",
+        "true_label": "SIZE_CUSTOMIZATION",
+        "predicted_label": "WHAT_SIZE_TO_ORDER",
+        "is_correct": false,
+        "confidence": 0.3144000470638275
+      },
+      {
+        "text": "What sizes are available?",
+        "true_label": "SIZE_CUSTOMIZATION",
+        "predicted_label": "WHAT_SIZE_TO_ORDER",
+        "is_correct": false,
+        "confidence": 0.7420435547828674
+      },
+      {
+        "text": "What size should I order?",
+        "true_label": "WHAT_SIZE_TO_ORDER",
+        "predicted_label": "WHAT_SIZE_TO_ORDER",
+        "is_correct": true,
+        "confidence": 0.6968715190887451
+      },
+      {
+        "text": "How to choose the right size?",
+        "true_label": "WHAT_SIZE_TO_ORDER",
+        "predicted_label": "WHAT_SIZE_TO_ORDER",
+        "is_correct": true,
+        "confidence": 0.8815768957138062
+      },
+      {
+        "text": "Which size is best for my bed?",
+        "true_label": "WHAT_SIZE_TO_ORDER",
+        "predicted_label": "COD",
+        "is_correct": false,
+        "confidence": 0.1812342256307602
+      },
+      {
+        "text": "I want to know more about your products",
+        "true_label": "LEAD_GEN",
+        "predicted_label": "PRODUCT_VARIANTS",
+        "is_correct": false,
+        "confidence": 0.47030144929885864
+      },
+      {
+        "text": "Can someone call me?",
+        "true_label": "LEAD_GEN",
+        "predicted_label": "LEAD_GEN",
+        "is_correct": true,
+        "confidence": 0.7888885140419006
+      },
+      {
+        "text": "Send me more information",
+        "true_label": "LEAD_GEN",
+        "predicted_label": "DISTRIBUTORS",
+        "is_correct": false,
+        "confidence": 0.13131852447986603
+      },
+      {
+        "text": "Is delivery available in 400001?",
+        "true_label": "CHECK_PINCODE",
+        "predicted_label": "DISTRIBUTORS",
+        "is_correct": false,
+        "confidence": 0.28027865290641785
+      },
+      {
+        "text": "Check delivery for my area",
+        "true_label": "CHECK_PINCODE",
+        "predicted_label": "RETURN_EXCHANGE",
+        "is_correct": false,
+        "confidence": 0.25287067890167236
+      },
+      {
+        "text": "Do you deliver to my location?",
+        "true_label": "CHECK_PINCODE",
+        "predicted_label": "COD",
+        "is_correct": false,
+        "confidence": 0.41068318486213684
+      },
+      {
+        "text": "Where can I buy your mattress?",
+        "true_label": "DISTRIBUTORS",
+        "predicted_label": "DISTRIBUTORS",
+        "is_correct": true,
+        "confidence": 0.2553384304046631
+      },
+      {
+        "text": "List of dealers in my city",
+        "true_label": "DISTRIBUTORS",
+        "predicted_label": "DISTRIBUTORS",
+        "is_correct": true,
+        "confidence": 0.5876132845878601
+      },
+      {
+        "text": "Nearest store location",
+        "true_label": "DISTRIBUTORS",
+        "predicted_label": "DISTRIBUTORS",
+        "is_correct": true,
+        "confidence": 0.6123448610305786
+      },
+      {
+        "text": "What's the price of the mattress?",
+        "true_label": "MATTRESS_COST",
+        "predicted_label": "MATTRESS_COST",
+        "is_correct": true,
+        "confidence": 0.3514575660228729
+      },
+      {
+        "text": "How much does it cost?",
+        "true_label": "MATTRESS_COST",
+        "predicted_label": "MATTRESS_COST",
+        "is_correct": true,
+        "confidence": 0.28336384892463684
+      },
+      {
+        "text": "Price for queen size",
+        "true_label": "MATTRESS_COST",
+        "predicted_label": "MATTRESS_COST",
+        "is_correct": true,
+        "confidence": 0.3242242932319641
+      },
+      {
+        "text": "What models do you have?",
+        "true_label": "PRODUCT_VARIANTS",
+        "predicted_label": "DISTRIBUTORS",
+        "is_correct": false,
+        "confidence": 0.5628010630607605
+      },
+      {
+        "text": "Different types of mattresses",
+        "true_label": "PRODUCT_VARIANTS",
+        "predicted_label": "PRODUCT_VARIANTS",
+        "is_correct": true,
+        "confidence": 0.5706002116203308
+      },
+      {
+        "text": "Show me all variants",
+        "true_label": "PRODUCT_VARIANTS",
+        "predicted_label": "PRODUCT_VARIANTS",
+        "is_correct": true,
+        "confidence": 0.8722373247146606
+      },
+      {
+        "text": "Tell me about SOF mattress",
+        "true_label": "ABOUT_SOF_MATTRESS",
+        "predicted_label": "ABOUT_SOF_MATTRESS",
+        "is_correct": true,
+        "confidence": 0.9882290363311768
+      },
+      {
+        "text": "What makes your mattress special?",
+        "true_label": "ABOUT_SOF_MATTRESS",
+        "predicted_label": "WHAT_SIZE_TO_ORDER",
+        "is_correct": false,
+        "confidence": 0.4115673899650574
+      },
+      {
+        "text": "Why choose SOF?",
+        "true_label": "ABOUT_SOF_MATTRESS",
+        "predicted_label": "ABOUT_SOF_MATTRESS",
+        "is_correct": true,
+        "confidence": 0.8364061713218689
+      },
+      {
+        "text": "My order is delayed",
+        "true_label": "DELAY_IN_DELIVERY",
+        "predicted_label": "ORDER_STATUS",
+        "is_correct": false,
+        "confidence": 0.7284619808197021
+      },
+      {
+        "text": "When will I get my mattress?",
+        "true_label": "DELAY_IN_DELIVERY",
+        "predicted_label": "COMPARISON",
+        "is_correct": false,
+        "confidence": 0.23880860209465027
+      },
+      {
+        "text": "Delivery taking too long",
+        "true_label": "DELAY_IN_DELIVERY",
+        "predicted_label": "DISTRIBUTORS",
+        "is_correct": false,
+        "confidence": 0.2736944854259491
+      },
+      {
+        "text": "Track my order",
+        "true_label": "ORDER_STATUS",
+        "predicted_label": "ORDER_STATUS",
+        "is_correct": true,
+        "confidence": 0.8899845480918884
+      },
+      {
+        "text": "Where is my mattress?",
+        "true_label": "ORDER_STATUS",
+        "predicted_label": "ORDER_STATUS",
+        "is_correct": true,
+        "confidence": 0.6364666223526001
+      },
+      {
+        "text": "Order number 12345 status",
+        "true_label": "ORDER_STATUS",
+        "predicted_label": "ORDER_STATUS",
+        "is_correct": true,
+        "confidence": 0.8061746954917908
+      },
+      {
+        "text": "How to return the mattress?",
+        "true_label": "RETURN_EXCHANGE",
+        "predicted_label": "WHAT_SIZE_TO_ORDER",
+        "is_correct": false,
+        "confidence": 0.25700807571411133
+      },
+      {
+        "text": "Exchange policy",
+        "true_label": "RETURN_EXCHANGE",
+        "predicted_label": "RETURN_EXCHANGE",
+        "is_correct": true,
+        "confidence": 0.8887999653816223
+      },
+      {
+        "text": "Can I exchange for different size?",
+        "true_label": "RETURN_EXCHANGE",
+        "predicted_label": "WHAT_SIZE_TO_ORDER",
+        "is_correct": false,
+        "confidence": 0.5913143754005432
+      },
+      {
+        "text": "How to cancel my order?",
+        "true_label": "CANCEL_ORDER",
+        "predicted_label": "CANCEL_ORDER",
+        "is_correct": true,
+        "confidence": 0.9654444456100464
+      },
+      {
+        "text": "I want to cancel",
+        "true_label": "CANCEL_ORDER",
+        "predicted_label": "LEAD_GEN",
+        "is_correct": false,
+        "confidence": 0.6323321461677551
+      },
+      {
+        "text": "Cancel order number 12345",
+        "true_label": "CANCEL_ORDER",
+        "predicted_label": "ORDER_STATUS",
+        "is_correct": false,
+        "confidence": 0.3132895231246948
+      },
+      {
+        "text": "Do you sell pillows?",
+        "true_label": "PILLOWS",
+        "predicted_label": "PILLOWS",
+        "is_correct": true,
+        "confidence": 0.9885741472244263
+      },
+      {
+        "text": "Price of your pillows",
+        "true_label": "PILLOWS",
+        "predicted_label": "PILLOWS",
+        "is_correct": true,
+        "confidence": 0.5193407535552979
+      },
+      {
+        "text": "Types of pillows available",
+        "true_label": "PILLOWS",
+        "predicted_label": "PILLOWS",
+        "is_correct": true,
+        "confidence": 0.9472943544387817
+      },
+      {
+        "text": "Any ongoing offers?",
+        "true_label": "OFFERS",
+        "predicted_label": "DISTRIBUTORS",
+        "is_correct": false,
+        "confidence": 0.3102986216545105
+      },
+      {
+        "text": "Discount on mattress",
+        "true_label": "OFFERS",
+        "predicted_label": "PRODUCT_VARIANTS",
+        "is_correct": false,
+        "confidence": 0.473602831363678
+      },
+      {
+        "text": "Special deals available",
+        "true_label": "OFFERS",
+        "predicted_label": "OFFERS",
+        "is_correct": true,
+        "confidence": 0.3870643079280853
+      }
+    ],
+    "has_probabilities": true
+  },
+  "test_cases": {
+    "texts": [
+      "Can I pay for the mattress in monthly installments?",
+      "What are the EMI options available?",
+      "How much will be the monthly EMI?",
+      "Do you offer cash on delivery?",
+      "Can I pay when the mattress is delivered?",
+      "Is COD available in my area?",
+      "What are the orthopedic benefits of this mattress?",
+      "How does it help with back pain?",
+      "Is it good for spine alignment?",
+      "How does it adapt to body shape?",
+      "What makes it ergonomic?",
+      "Does it provide proper support?",
+      "How does it compare to other brands?",
+      "What's the difference between this and memory foam?",
+      "Which is better, this or spring mattress?",
+      "What's the warranty period?",
+      "Does warranty cover sagging?",
+      "How to claim warranty?",
+      "Tell me about the 100 night trial",
+      "Can I return if I don't like it?",
+      "What's the trial period?",
+      "Can I get a custom size?",
+      "Do you make mattresses to order?",
+      "What sizes are available?",
+      "What size should I order?",
+      "How to choose the right size?",
+      "Which size is best for my bed?",
+      "I want to know more about your products",
+      "Can someone call me?",
+      "Send me more information",
+      "Is delivery available in 400001?",
+      "Check delivery for my area",
+      "Do you deliver to my location?",
+      "Where can I buy your mattress?",
+      "List of dealers in my city",
+      "Nearest store location",
+      "What's the price of the mattress?",
+      "How much does it cost?",
+      "Price for queen size",
+      "What models do you have?",
+      "Different types of mattresses",
+      "Show me all variants",
+      "Tell me about SOF mattress",
+      "What makes your mattress special?",
+      "Why choose SOF?",
+      "My order is delayed",
+      "When will I get my mattress?",
+      "Delivery taking too long",
+      "Track my order",
+      "Where is my mattress?",
+      "Order number 12345 status",
+      "How to return the mattress?",
+      "Exchange policy",
+      "Can I exchange for different size?",
+      "How to cancel my order?",
+      "I want to cancel",
+      "Cancel order number 12345",
+      "Do you sell pillows?",
+      "Price of your pillows",
+      "Types of pillows available",
+      "Any ongoing offers?",
+      "Discount on mattress",
+      "Special deals available"
+    ],
+    "labels": [
+      "EMI",
+      "EMI",
+      "EMI",
+      "COD",
+      "COD",
+      "COD",
+      "ORTHO_FEATURES",
+      "ORTHO_FEATURES",
+      "ORTHO_FEATURES",
+      "ERGO_FEATURES",
+      "ERGO_FEATURES",
+      "ERGO_FEATURES",
+      "COMPARISON",
+      "COMPARISON",
+      "COMPARISON",
+      "WARRANTY",
+      "WARRANTY",
+      "WARRANTY",
+      "100_NIGHT_TRIAL_OFFER",
+      "100_NIGHT_TRIAL_OFFER",
+      "100_NIGHT_TRIAL_OFFER",
+      "SIZE_CUSTOMIZATION",
+      "SIZE_CUSTOMIZATION",
+      "SIZE_CUSTOMIZATION",
+      "WHAT_SIZE_TO_ORDER",
+      "WHAT_SIZE_TO_ORDER",
+      "WHAT_SIZE_TO_ORDER",
+      "LEAD_GEN",
+      "LEAD_GEN",
+      "LEAD_GEN",
+      "CHECK_PINCODE",
+      "CHECK_PINCODE",
+      "CHECK_PINCODE",
+      "DISTRIBUTORS",
+      "DISTRIBUTORS",
+      "DISTRIBUTORS",
+      "MATTRESS_COST",
+      "MATTRESS_COST",
+      "MATTRESS_COST",
+      "PRODUCT_VARIANTS",
+      "PRODUCT_VARIANTS",
+      "PRODUCT_VARIANTS",
+      "ABOUT_SOF_MATTRESS",
+      "ABOUT_SOF_MATTRESS",
+      "ABOUT_SOF_MATTRESS",
+      "DELAY_IN_DELIVERY",
+      "DELAY_IN_DELIVERY",
+      "DELAY_IN_DELIVERY",
+      "ORDER_STATUS",
+      "ORDER_STATUS",
+      "ORDER_STATUS",
+      "RETURN_EXCHANGE",
+      "RETURN_EXCHANGE",
+      "RETURN_EXCHANGE",
+      "CANCEL_ORDER",
+      "CANCEL_ORDER",
+      "CANCEL_ORDER",
+      "PILLOWS",
+      "PILLOWS",
+      "PILLOWS",
+      "OFFERS",
+      "OFFERS",
+      "OFFERS"
+    ]
+  },
+  "summary": {
+    "timestamp": "20250614_040907",
+    "overall_accuracy": {
+      "distilbert": 0.5238095238095238,
+      "svm": 0.6031746031746031,
+      "cnn": 0.5396825396825397
+    },
+    "model_details": {
+      "distilbert": {
+        "accuracy": 0.5238095238095238,
+        "metrics": {
+          "accuracy": 0.5238095238095238,
+          "precision": 0.5527210884353742,
+          "recall": 0.5238095238095238,
+          "f1_score": 0.47569916855631145,
+          "per_class_metrics": {
+            "EMI": {
+              "precision": 0.42857142857142855,
+              "recall": 1.0,
+              "f1-score": 0.6,
+              "support": 3.0
+            },
+            "COD": {
+              "precision": 1.0,
+              "recall": 0.3333333333333333,
+              "f1-score": 0.5,
+              "support": 3.0
+            },
+            "ORTHO_FEATURES": {
+              "precision": 0.75,
+              "recall": 1.0,
+              "f1-score": 0.8571428571428571,
+              "support": 3.0
+            },
+            "ERGO_FEATURES": {
+              "precision": 1.0,
+              "recall": 0.3333333333333333,
+              "f1-score": 0.5,
+              "support": 3.0
+            },
+            "COMPARISON": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 3.0
+            },
+            "WARRANTY": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 3.0
+            },
+            "100_NIGHT_TRIAL_OFFER": {
+              "precision": 1.0,
+              "recall": 0.6666666666666666,
+              "f1-score": 0.8,
+              "support": 3.0
+            },
+            "SIZE_CUSTOMIZATION": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 3.0
+            },
+            "WHAT_SIZE_TO_ORDER": {
+              "precision": 0.42857142857142855,
+              "recall": 1.0,
+              "f1-score": 0.6,
+              "support": 3.0
+            },
+            "LEAD_GEN": {
+              "precision": 0.3333333333333333,
+              "recall": 0.6666666666666666,
+              "f1-score": 0.4444444444444444,
+              "support": 3.0
+            },
+            "CHECK_PINCODE": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 3.0
+            },
+            "DISTRIBUTORS": {
+              "precision": 0.4,
+              "recall": 0.6666666666666666,
+              "f1-score": 0.5,
+              "support": 3.0
+            },
+            "MATTRESS_COST": {
+              "precision": 0.6,
+              "recall": 1.0,
+              "f1-score": 0.75,
+              "support": 3.0
+            },
+            "PRODUCT_VARIANTS": {
+              "precision": 0.16666666666666666,
+              "recall": 0.6666666666666666,
+              "f1-score": 0.26666666666666666,
+              "support": 3.0
+            },
+            "ABOUT_SOF_MATTRESS": {
+              "precision": 1.0,
+              "recall": 0.6666666666666666,
+              "f1-score": 0.8,
+              "support": 3.0
+            },
+            "DELAY_IN_DELIVERY": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 3.0
+            },
+            "ORDER_STATUS": {
+              "precision": 0.5,
+              "recall": 0.6666666666666666,
+              "f1-score": 0.5714285714285714,
+              "support": 3.0
+            },
+            "RETURN_EXCHANGE": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 3.0
+            },
+            "CANCEL_ORDER": {
+              "precision": 1.0,
+              "recall": 0.3333333333333333,
+              "f1-score": 0.5,
+              "support": 3.0
+            },
+            "PILLOWS": {
+              "precision": 1.0,
+              "recall": 0.6666666666666666,
+              "f1-score": 0.8,
+              "support": 3.0
+            },
+            "OFFERS": {
+              "precision": 1.0,
+              "recall": 0.3333333333333333,
+              "f1-score": 0.5,
+              "support": 3.0
+            },
+            "accuracy": 0.5238095238095238,
+            "macro avg": {
+              "precision": 0.5527210884353742,
+              "recall": 0.5238095238095238,
+              "f1-score": 0.47569916855631145,
+              "support": 63.0
+            },
+            "weighted avg": {
+              "precision": 0.5527210884353742,
+              "recall": 0.5238095238095238,
+              "f1-score": 0.47569916855631145,
+              "support": 63.0
+            }
+          }
+        },
+        "has_probabilities": true
+      },
+      "svm": {
+        "accuracy": 0.6031746031746031,
+        "metrics": {
+          "accuracy": 0.6031746031746031,
+          "precision": 0.7332112332112333,
+          "recall": 0.6031746031746031,
+          "f1_score": 0.6111368789940219,
+          "per_class_metrics": {
+            "EMI": {
+              "precision": 1.0,
+              "recall": 0.3333333333333333,
+              "f1-score": 0.5,
+              "support": 3.0
+            },
+            "COD": {
+              "precision": 0.6666666666666666,
+              "recall": 0.6666666666666666,
+              "f1-score": 0.6666666666666666,
+              "support": 3.0
+            },
+            "ORTHO_FEATURES": {
+              "precision": 1.0,
+              "recall": 0.3333333333333333,
+              "f1-score": 0.5,
+              "support": 3.0
+            },
+            "ERGO_FEATURES": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 3.0
+            },
+            "COMPARISON": {
+              "precision": 1.0,
+              "recall": 0.3333333333333333,
+              "f1-score": 0.5,
+              "support": 3.0
+            },
+            "WARRANTY": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 3.0
+            },
+            "100_NIGHT_TRIAL_OFFER": {
+              "precision": 1.0,
+              "recall": 0.6666666666666666,
+              "f1-score": 0.8,
+              "support": 3.0
+            },
+            "SIZE_CUSTOMIZATION": {
+              "precision": 1.0,
+              "recall": 0.3333333333333333,
+              "f1-score": 0.5,
+              "support": 3.0
+            },
+            "WHAT_SIZE_TO_ORDER": {
+              "precision": 0.5,
+              "recall": 0.6666666666666666,
+              "f1-score": 0.5714285714285714,
+              "support": 3.0
+            },
+            "LEAD_GEN": {
+              "precision": 0.5,
+              "recall": 0.3333333333333333,
+              "f1-score": 0.4,
+              "support": 3.0
+            },
+            "CHECK_PINCODE": {
+              "precision": 1.0,
+              "recall": 0.6666666666666666,
+              "f1-score": 0.8,
+              "support": 3.0
+            },
+            "DISTRIBUTORS": {
+              "precision": 0.23076923076923078,
+              "recall": 1.0,
+              "f1-score": 0.375,
+              "support": 3.0
+            },
+            "MATTRESS_COST": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 3.0
+            },
+            "PRODUCT_VARIANTS": {
+              "precision": 0.25,
+              "recall": 0.6666666666666666,
+              "f1-score": 0.36363636363636365,
+              "support": 3.0
+            },
+            "ABOUT_SOF_MATTRESS": {
+              "precision": 1.0,
+              "recall": 0.6666666666666666,
+              "f1-score": 0.8,
+              "support": 3.0
+            },
+            "DELAY_IN_DELIVERY": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 3.0
+            },
+            "ORDER_STATUS": {
+              "precision": 0.75,
+              "recall": 1.0,
+              "f1-score": 0.8571428571428571,
+              "support": 3.0
+            },
+            "RETURN_EXCHANGE": {
+              "precision": 0.5,
+              "recall": 0.3333333333333333,
+              "f1-score": 0.4,
+              "support": 3.0
+            },
+            "CANCEL_ORDER": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 3.0
+            },
+            "PILLOWS": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 3.0
+            },
+            "OFFERS": {
+              "precision": 1.0,
+              "recall": 0.6666666666666666,
+              "f1-score": 0.8,
+              "support": 3.0
+            },
+            "accuracy": 0.6031746031746031,
+            "macro avg": {
+              "precision": 0.7332112332112333,
+              "recall": 0.6031746031746031,
+              "f1-score": 0.6111368789940219,
+              "support": 63.0
+            },
+            "weighted avg": {
+              "precision": 0.7332112332112333,
+              "recall": 0.6031746031746031,
+              "f1-score": 0.6111368789940219,
+              "support": 63.0
+            }
+          }
+        },
+        "has_probabilities": true
+      },
+      "cnn": {
+        "accuracy": 0.5396825396825397,
+        "metrics": {
+          "accuracy": 0.5396825396825397,
+          "precision": 0.6716931216931218,
+          "recall": 0.5396825396825397,
+          "f1_score": 0.5305638805638806,
+          "per_class_metrics": {
+            "100_NIGHT_TRIAL_OFFER": {
+              "precision": 1.0,
+              "recall": 0.3333333333333333,
+              "f1-score": 0.5,
+              "support": 3.0
+            },
+            "ABOUT_SOF_MATTRESS": {
+              "precision": 1.0,
+              "recall": 0.6666666666666666,
+              "f1-score": 0.8,
+              "support": 3.0
+            },
+            "CANCEL_ORDER": {
+              "precision": 1.0,
+              "recall": 0.3333333333333333,
+              "f1-score": 0.5,
+              "support": 3.0
+            },
+            "CHECK_PINCODE": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 3.0
+            },
+            "COD": {
+              "precision": 0.25,
+              "recall": 0.6666666666666666,
+              "f1-score": 0.36363636363636365,
+              "support": 3.0
+            },
+            "COMPARISON": {
+              "precision": 0.3333333333333333,
+              "recall": 0.3333333333333333,
+              "f1-score": 0.3333333333333333,
+              "support": 3.0
+            },
+            "DELAY_IN_DELIVERY": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 3.0
+            },
+            "DISTRIBUTORS": {
+              "precision": 0.3,
+              "recall": 1.0,
+              "f1-score": 0.46153846153846156,
+              "support": 3.0
+            },
+            "EMI": {
+              "precision": 1.0,
+              "recall": 0.3333333333333333,
+              "f1-score": 0.5,
+              "support": 3.0
+            },
+            "ERGO_FEATURES": {
+              "precision": 1.0,
+              "recall": 0.3333333333333333,
+              "f1-score": 0.5,
+              "support": 3.0
+            },
+            "LEAD_GEN": {
+              "precision": 0.5,
+              "recall": 0.3333333333333333,
+              "f1-score": 0.4,
+              "support": 3.0
+            },
+            "MATTRESS_COST": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 3.0
+            },
+            "OFFERS": {
+              "precision": 1.0,
+              "recall": 0.3333333333333333,
+              "f1-score": 0.5,
+              "support": 3.0
+            },
+            "ORDER_STATUS": {
+              "precision": 0.6,
+              "recall": 1.0,
+              "f1-score": 0.75,
+              "support": 3.0
+            },
+            "ORTHO_FEATURES": {
+              "precision": 1.0,
+              "recall": 0.6666666666666666,
+              "f1-score": 0.8,
+              "support": 3.0
+            },
+            "PILLOWS": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 3.0
+            },
+            "PRODUCT_VARIANTS": {
+              "precision": 0.4,
+              "recall": 0.6666666666666666,
+              "f1-score": 0.5,
+              "support": 3.0
+            },
+            "RETURN_EXCHANGE": {
+              "precision": 0.5,
+              "recall": 0.3333333333333333,
+              "f1-score": 0.4,
+              "support": 3.0
+            },
+            "SIZE_CUSTOMIZATION": {
+              "precision": 1.0,
+              "recall": 0.3333333333333333,
+              "f1-score": 0.5,
+              "support": 3.0
+            },
+            "WARRANTY": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 3.0
+            },
+            "WHAT_SIZE_TO_ORDER": {
+              "precision": 0.2222222222222222,
+              "recall": 0.6666666666666666,
+              "f1-score": 0.3333333333333333,
+              "support": 3.0
+            },
+            "accuracy": 0.5396825396825397,
+            "macro avg": {
+              "precision": 0.6716931216931217,
+              "recall": 0.5396825396825397,
+              "f1-score": 0.5305638805638806,
+              "support": 63.0
+            },
+            "weighted avg": {
+              "precision": 0.6716931216931218,
+              "recall": 0.5396825396825397,
+              "f1-score": 0.5305638805638806,
+              "support": 63.0
+            }
+          }
+        },
+        "has_probabilities": true
+      }
+    },
+    "performance_metrics": {
+      "best_model": "svm",
+      "model_rankings": [
+        [
+          "svm",
+          0.6031746031746031
+        ],
+        [
+          "cnn",
+          0.5396825396825397
+        ],
+        [
+          "distilbert",
+          0.5238095238095238
+        ]
+      ]
+    }
+  }
+}

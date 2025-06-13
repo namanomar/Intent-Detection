@@ -1,0 +1,59 @@
+{
+  "model_type": "SVM",
+  "vectorizer": "TF-IDF",
+  "features": {
+    "max_features": 1000,
+    "ngram_range": [
+      1,
+      2
+    ],
+    "min_df": 2,
+    "max_df": 0.95
+  },
+  "training_data": {
+    "total_samples": 328,
+    "train_samples": 262,
+    "val_samples": 66,
+    "num_classes": 21,
+    "classes": [
+      "EMI",
+      "COD",
+      "ORTHO_FEATURES",
+      "ERGO_FEATURES",
+      "COMPARISON",
+      "WARRANTY",
+      "100_NIGHT_TRIAL_OFFER",
+      "SIZE_CUSTOMIZATION",
+      "WHAT_SIZE_TO_ORDER",
+      "LEAD_GEN",
+      "CHECK_PINCODE",
+      "DISTRIBUTORS",
+      "MATTRESS_COST",
+      "PRODUCT_VARIANTS",
+      "ABOUT_SOF_MATTRESS",
+      "DELAY_IN_DELIVERY",
+      "ORDER_STATUS",
+      "RETURN_EXCHANGE",
+      "CANCEL_ORDER",
+      "PILLOWS",
+      "OFFERS"
+    ]
+  },
+  "model_parameters": {
+    "C": 1,
+    "break_ties": false,
+    "cache_size": 200,
+    "class_weight": null,
+    "coef0": 0.0,
+    "decision_function_shape": "ovr",
+    "degree": 3,
+    "gamma": "scale",
+    "kernel": "linear",
+    "max_iter": -1,
+    "probability": true,
+    "random_state": null,
+    "shrinking": true,
+    "tol": 0.001,
+    "verbose": false
+  }
+}

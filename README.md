@@ -2,6 +2,8 @@
 
 A machine learning-based intent detection system for customer queries related to SOF Mattress products. The system uses DistilBERT for natural language understanding and provides a user-friendly interface through Streamlit.
 
+<img src="./image.png"></img>
+
 ## Features
 
 - Fast and accurate intent detection
