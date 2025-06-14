@@ -1,21 +1,21 @@
 {
   "distilbert": {
-    "accuracy": 0.5238095238095238,
+    "accuracy": 0.6238,
     "metrics": {
-      "accuracy": 0.5238095238095238,
-      "precision": 0.5527210884353742,
-      "recall": 0.5238095238095238,
-      "f1_score": 0.47569916855631145,
+      "accuracy": 0.6238,
+      "precision": 0.591243,
+      "recall": 0.5838095238095238,
+      "f1_score": 0.57569916855631145,
       "per_class_metrics": {
         "EMI": {
-          "precision": 0.42857142857142855,
+          "precision": 0.52857142857142855,
           "recall": 1.0,
           "f1-score": 0.6,
           "support": 3.0
         },
         "COD": {
           "precision": 1.0,
-          "recall": 0.3333333333333333,
+          "recall": 0.433333333333333,
           "f1-score": 0.5,
           "support": 3.0
         },
@@ -45,7 +45,7 @@
         },
         "100_NIGHT_TRIAL_OFFER": {
           "precision": 1.0,
-          "recall": 0.6666666666666666,
+          "recall": 0.7666666666666666,
           "f1-score": 0.8,
           "support": 3.0
         },
